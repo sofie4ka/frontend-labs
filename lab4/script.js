@@ -31,7 +31,7 @@ function addImage() {
 
   const newImage = document.createElement('img');
   newImage.id = 'myImage';
-  newImage.src = imageContainer.src.split('/')[imageContainer.src.split('/').length - 1] === 'photo_2022-10-05_14-17-41.jpg' ? 'london.jpg' : 'photo_2022-10-05_14-17-41.jpg'; // шлях до нового зображення
+  newImage.src = imageContainer.src.split('/')[imageContainer.src.split('/').length - 1] === 'photo_2022-10-05_14-17-41.jpg' ? 'london.jpg' : 'photo_2022-10-05_14-17-41.jpg';
   newImage.alt = 'Oops';
   imageContainer.parentNode.replaceChild(newImage, imageContainer);
 }
